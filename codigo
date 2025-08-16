@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de namoro</title>
+
+    <style>
+        body{
+            background-color: red;
+        }
+
+        .painel{
+            margin: auto;
+            background-color: white;
+            width: 500px;
+            height: 500px;
+            border-radius: 20px;
+            text-align: center;
+            padding-top: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #sim{
+            height: 40px;
+            width: 60px;
+            background-color: red;
+            border: 2px solid white;
+            border-radius: 10px;
+            color: white;
+            margin-left: -70px;
+            
+        }
+
+        #nao{
+            position: absolute;
+            height: 40px;
+            width: 60px;
+            background-color: red;
+            border: 2px solid white;
+            border-radius: 10px;
+            color: white;
+            margin-left: 10px;
+
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="painel">
+        <h1>Feliz dia dos namorados</h1>
+
+        <img src="https://i.pinimg.com/originals/fa/49/4e/fa494e85b6099eda29f75fa0ae547e7a.gif" alt="">
+
+        <h2>Milene, você aceita namorar comigo?</h2>
+
+        <button onclick="sim()" id="sim">SIMM</button>
+        <button onmouseover="fuja()" id="nao">NAOO</button>
+
+    </div>
+
+    <script>
+        function fuja(){
+            let botao = document.getElementById("nao");
+
+            let x = Math.floor(Math.random() * 400);
+            let y = Math.floor(Math.random() * 400);
+
+            botao.style.marginTop = y + "px";
+            botao.style.marginLeft = x + "px";
+        }   
+
+        function sim(){
+            alert("Sabia que você não resistiria a minha beleza kkkk Te amo muito, feliz dia dos namorados meu amor <3");
+            window.location.href = "https://www.youtube.com/watch?v=oRvND-r57Us";
+        }
+    </script>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de namoro</title>
+
+    <style>
+        body{
+            background-color: red;
+        }
+
+        .painel{
+            margin: auto;
+            background-color: white;
+            width: 500px;
+            height: 500px;
+            border-radius: 20px;
+            text-align: center;
+            padding-top: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #sim{
+            height: 40px;
+            width: 60px;
+            background-color: red;
+            border: 2px solid white;
+            border-radius: 10px;
+            color: white;
+            margin-left: -70px;
+            
+        }
+
+        #nao{
+            position: absolute;
+            height: 40px;
+            width: 60px;
+            background-color: red;
+            border: 2px solid white;
+            border-radius: 10px;
+            color: white;
+            margin-left: 10px;
+
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="painel">
+        <h1>Feliz dia dos namorados</h1>
+
+        <img src="https://i.pinimg.com/originals/fa/49/4e/fa494e85b6099eda29f75fa0ae547e7a.gif" alt="">
+
+        <h2>Milene, você aceita namorar comigo?</h2>
+
+        <button onclick="sim()" id="sim">SIMM</button>
+        <button onmouseover="fuja()" id="nao">NAOO</button>
+
+    </div>
+
+    <script>
+        function fuja(){
+            let botao = document.getElementById("nao");
+
+            let x = Math.floor(Math.random() * 400);
+            let y = Math.floor(Math.random() * 400);
+
+            botao.style.marginTop = y + "px";
+            botao.style.marginLeft = x + "px";
+        }   
+
+        function sim(){
+            alert("Sabia que você não resistiria a minha beleza kkkk Te amo muito, feliz dia dos namorados meu amor <3");
+            window.location.href = "https://www.youtube.com/watch?v=oRvND-r57Us";
+        }
+    </script>
+
+</body>
+</html>
