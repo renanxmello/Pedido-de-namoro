@@ -55,7 +55,7 @@
 
         <img src="https://i.pinimg.com/originals/fa/49/4e/fa494e85b6099eda29f75fa0ae547e7a.gif" alt="">
 
-        <h2>Milene, você aceita namorar comigo?</h2>
+        <h2>Você aceita nanmorar comigo?</h2>
 
         <button onclick="sim()" id="sim">SIMM</button>
         <button onmouseover="fuja()" id="nao">NAOO</button>
